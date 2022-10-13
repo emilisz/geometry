@@ -1,0 +1,22 @@
+{
+    "name": "eciur/geometry",
+    "description": "calculate objects perimeter and area size",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.8"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "emilisz",
+            "email": "eciurlionis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
