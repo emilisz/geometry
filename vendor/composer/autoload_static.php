@@ -42,7 +42,7 @@ class ComposerStaticInitf475eca9c6b0e1388aea3a06b4e6ef70
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Models\\Circle' => __DIR__ . '/../..' . '/src/models/Circle.php',
-        'Models\\Contracts\\Figure' => __DIR__ . '/../..' . '/src/models/Contracts/Figure.php',
+        'Models\\Contracts\\FigureCalculator' => __DIR__ . '/../..' . '/src/models/Contracts/FigureCalculator.php',
         'Models\\Geometry' => __DIR__ . '/../..' . '/src/models/Geometry.php',
         'Models\\Rectangle' => __DIR__ . '/../..' . '/src/models/Rectangle.php',
         'Models\\Rhombus' => __DIR__ . '/../..' . '/src/models/Rhombus.php',

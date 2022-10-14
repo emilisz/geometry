@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '6f6bf8454f1e898f6c0085d8be151aa68d35a929',
     'name' => 'eciur/geometry',
   ),
   'versions' => 
@@ -22,12 +22,12 @@
     ),
     'eciur/geometry' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '6f6bf8454f1e898f6c0085d8be151aa68d35a929',
     ),
     'myclabs/deep-copy' => 
     array (
@@ -271,6 +271,15 @@
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'squizlabs/php_codesniffer' => 
+    array (
+      'pretty_version' => '3.7.1',
+      'version' => '3.7.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1359e176e9307e906dc3d890bcc9603ff6d90619',
     ),
     'theseer/tokenizer' => 
     array (

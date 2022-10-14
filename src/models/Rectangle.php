@@ -2,9 +2,9 @@
 
 namespace Models;
 
-use Models\Contracts\Figure;
+use Models\Contracts\FigureCalculator;
 
-class Rectangle extends Geometry implements Figure
+class Rectangle implements FigureCalculator
 {
 
     public function __construct(protected float $width, protected float $height)
@@ -15,11 +15,13 @@ class Rectangle extends Geometry implements Figure
     //perimeter P = 2a + 2b
     //area A = ab
 
-    public function calculate(): string
+    public function calculateArea(): float
     {
-        $area = $this->width*$this->height;
-        $perimeter = $this->width*2 + $this->height*2;
+        return $this->width*$this->height;
+    }
 
-        return 'Area: '.$area  .' , '. 'Perimeter: '. $perimeter;
+    public function calculatePerimeter(): float
+    {
+        return $this->width*2 + $this->height*2;
     }
 }

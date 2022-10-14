@@ -8,7 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Models\\Circle' => $baseDir . '/src/models/Circle.php',
-    'Models\\Contracts\\Figure' => $baseDir . '/src/models/Contracts/Figure.php',
+    'Models\\Contracts\\FigureCalculator' => $baseDir . '/src/models/Contracts/FigureCalculator.php',
     'Models\\Geometry' => $baseDir . '/src/models/Geometry.php',
     'Models\\Rectangle' => $baseDir . '/src/models/Rectangle.php',
     'Models\\Rhombus' => $baseDir . '/src/models/Rhombus.php',

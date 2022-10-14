@@ -1,9 +1,9 @@
 <?php
 namespace Models;
 
-use Models\Contracts\Figure;
+use Models\Contracts\FigureCalculator;
 
-class Square extends Geometry implements Figure
+class Square implements FigureCalculator
 {
 
     public function __construct(protected float $width)
@@ -14,12 +14,14 @@ class Square extends Geometry implements Figure
     //perimeter a*4
     //area A = a*a
 
-    public function calculate(): string
+    public function calculateArea(): float
     {
-        $area = $this->width*$this->width;
-        $perimeter = $this->width*4;
+        return $this->width*$this->width;
+    }
 
-        return 'Area: '.$area  .' , '. 'Perimeter: '. $perimeter;
+    public function calculatePerimeter(): float
+    {
+        return $this->width*4;
     }
 
 }
